@@ -27,7 +27,7 @@ namespace ScheduMate.Models
         {
         }
 
-        public DbSet<Departments> Departments { get; set; }
+        public DbSet<Departments> DepartmentsTable { get; set; }
 
         public static ApplicationDbContext Create()
         {
