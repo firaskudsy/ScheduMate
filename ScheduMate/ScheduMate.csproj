@@ -177,6 +177,10 @@
     <Compile Include="Migrations\201608041513027_DepartmentNewTable.Designer.cs">
       <DependentUpon>201608041513027_DepartmentNewTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608041520491_DepartmentNewTable1.cs" />
+    <Compile Include="Migrations\201608041520491_DepartmentNewTable1.Designer.cs">
+      <DependentUpon>201608041520491_DepartmentNewTable1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Departments.cs" />
@@ -255,6 +259,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201608041513027_DepartmentNewTable.resx">
       <DependentUpon>201608041513027_DepartmentNewTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608041520491_DepartmentNewTable1.resx">
+      <DependentUpon>201608041520491_DepartmentNewTable1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
