@@ -27,11 +27,19 @@
                             <img src="@Url.Action("UserPhotos", "Home")" height="48" width="48"/>
                         </li>
                     }
+
+
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     @if (Request.IsAuthenticated)
                     {
                         <li>@Html.ActionLink("Departments", "Index", "Departments")</li>
                     }
+
+                    @if (Request.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Employers", "Index", "Employers")</li>
+                    }
+
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
 
